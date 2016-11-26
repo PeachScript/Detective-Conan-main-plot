@@ -157,6 +157,19 @@ header {
     box-shadow: 0 0 0 2px @c-yellow-font;
     border-radius: @height/2;
   }
+  &.filtering {
+    section {
+      display: none;
+    }
+    &.Black section.Black,
+    &.Kid section.Kid,
+    &.Heiji section.Heiji,
+    &.Kudo section.Kudo,
+    &.FBI section.FBI,
+    &.CIA section.CIA {
+      display: block;
+    }
+  }
   section {
     position: relative;
     padding: 10px 0;
@@ -230,11 +243,12 @@ header {
       }
       .roles-group {
         float: right;
-        margin: -9px -9px -9px 5px;
+        margin: -9px -9px -9px 0;
         height: @s-role;
         .role {
           position: relative;
           display: inline-block;
+          margin-left: 5px;
           width: @s-role;
           height: @s-role;
           background: url('../assets/images/roles.jpg') no-repeat;

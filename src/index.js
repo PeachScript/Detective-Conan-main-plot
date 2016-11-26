@@ -41,11 +41,50 @@ require('./styles/main.less');
 
     roles.classList.add('roles-group');
 
+    item.plots.forEach((plot) => {
+      const role = document.createElement('span');
+      role.classList.add('role', plot);
+      section.classList.add(plot);
+      roles.appendChild(role);
+    });
+
+    content.appendChild(roles);
     section.appendChild(series);
     section.appendChild(content);
-    section.appendChild(roles);
     timeline.appendChild(section);
   });
 
   originalTimeline.parentNode.replaceChild(timeline, originalTimeline);
+})();
+
+
+/**
+ * screen feature
+ */
+(() => {
+  const screen = document.querySelector('.screen-bar');
+  const timeline = document.querySelector('.timeline');
+  const filtered = [];
+  const classNames = {
+    selected: 'selected',
+    filtering: 'filtering',
+  };
+
+  screen.addEventListener('click', (ev) => {
+    if (ev.target && ev.target.nodeName === 'BUTTON') {
+      if (ev.target.classList.toggle(classNames.selected)) {
+        filtered.push(ev.target.getAttribute('data-key'));
+        timeline.classList.add(ev.target.getAttribute('data-key'));
+      } else {
+        filtered.splice(filtered.indexOf(ev.target.getAttribute('data-key')), 1);
+        timeline.classList.remove(ev.target.getAttribute('data-key'));
+      }
+
+      if (filtered.length === 0) {
+        timeline.classList.remove(classNames.filtering);
+      } else if (!timeline.classList.contains(classNames.filtering)) {
+        timeline.classList.add(classNames.filtering);
+      }
+    }
+  });
 })();
