@@ -107,6 +107,12 @@ header {
   }
   small {
     float: right;
+    a {
+      color: @c-yellow-font;
+      &:hover {
+        color: darken(@c-yellow-font, 10%);
+      }
+    }
   }
 }
 
@@ -296,6 +302,19 @@ header {
           }
         }
       }
+    }
+  }
+}
+
+footer {
+  padding: 10px 0 30px;
+  text-align: center;
+  color: #999;
+  a {
+    color: @c-basic;
+    text-decoration: none;
+    &:hover{
+      text-decoration: underline;
     }
   }
 }
