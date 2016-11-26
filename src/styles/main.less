@@ -1,13 +1,59 @@
 body {
   margin: 0;
+  background-color: #333;
+}
+
+@font-face {
+  font-family: "conan";
+  src: url("../assets/fonts/conan.eot"); /* IE9 */
+  src: url("../assets/fonts/conan.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+
+  url("../assets/fonts/conan.woff") format("woff"), /* chrome、firefox */
+  url("../assets/fonts/conan.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+
+  url("../assets/fonts/conan.svg#conan") format("svg"); /* iOS 4.1- */
+  font-style: normal;
+  font-weight: normal;
 }
 
 header {
-  height: 600px;
-  text-align: center;
-  font-size: 150px;
-  color: #fff;
-  line-height: 600px;
-  background: url('../assets/images/header.jpg') no-repeat center;
-  background-size: 100%;
+  display: table;
+  width: 100%;
+  .header-inner{
+    display: table-cell;
+    text-align: center;
+    padding-bottom: 50px;
+    height: 500px;
+    vertical-align: middle;
+    background: url('../assets/images/header.jpg') no-repeat center;
+    background-size: 100%;
+    box-sizing: border-box;
+    h1 {
+      margin: 0;
+      font-family: conan;
+      font-weight: normal;
+      font-size: 150px;
+      color: #E5322D;
+      -webkit-text-stroke: 4px #FFEB52;
+    }
+    small {
+      position: relative;
+      top: -32px;
+      padding-right: 20px;
+      font-style: italic;
+      font-size: 60px;
+      vertical-align: middle;
+      -webkit-text-stroke: initial;
+      background-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#F01C1C), to(#FDE847));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    h2 {
+      margin: 10px;
+      letter-spacing: 16px;
+      font-weight: normal;
+      text-shadow: 2px 2px 8px #000;
+      color: #fff;
+    }
+  }
 }

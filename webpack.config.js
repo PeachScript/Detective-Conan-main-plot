@@ -12,13 +12,16 @@ module.exports = {
       {
         test: /\.js$/,
         loader: 'eslint',
-        exclude: /node_moudles/
+        exclude: /(node_modules|libs)/
       },
     ],
+    resolve: {
+      extensions: ['', '.js']
+    },
     loaders: [
       {
         test: /\.js$/,
-        exclude: /node_moudles/,
+        exclude: /(node_modules|libs)/,
         loader: 'babel'
       },
       {
@@ -39,6 +42,14 @@ module.exports = {
         query: {
           limit: 10000,
           name: 'static/img/[name]_[hash:7].[ext]'
+        }
+      },
+      {
+        test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
+        loader: 'url',
+        query: {
+          limit: 10000,
+          name: 'static/fonts/[name]_[hash:7].[ext]'
         }
       }
     ]
