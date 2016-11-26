@@ -1,3 +1,8 @@
+@s-content: 1000px;
+@s-role: 40px;
+@c-basic: #c3293e;
+@c-yellow-font: #fbde95;
+
 * {
   box-sizing: border-box;
 }
@@ -23,7 +28,8 @@ body {
 header {
   display: table;
   width: 100%;
-  .header-inner{
+  min-width: @s-content;
+  .header-inner {
     display: table-cell;
     text-align: center;
     padding-bottom: 50px;
@@ -63,20 +69,20 @@ header {
 }
 .screen-bar {
   margin: -25px auto 0;
-  width: 1000px;
+  width: @s-content;
   height: 50px;
   padding: 0 22px;
   color: #5d000b;
   line-height: 50px;
   font-size: 16px;
-  background-color: #c3293e;
+  background-color: @c-basic;
   box-shadow: 0 3px 15px rgba(0,0,0,.5);
   button {
     margin-right: 8px;
     padding: 6px 13px;
     font-size: 16px;
     line-height: 16px;
-    color: #fbde95;
+    color: @c-yellow-font;
     text-shadow: 0 1px 1px rgba(0,0,0,0.5);
     text-decoration: none;
     background-color: #d83c4a;
@@ -101,5 +107,195 @@ header {
   }
   small {
     float: right;
+  }
+}
+
+.timeline {
+  @s-gap: 20px;
+  @s-series: 80px;
+  @s-line: 10px;
+  position: relative;
+  margin: 50px auto;
+  width: @s-content;
+  &:before {
+    @size: @s-line * 1.6;
+    content: '';
+    position: absolute;
+    z-index: 2;
+    top: -@size/2;
+    margin-top: -@size/2;
+    margin-left: -(@size - @s-line)/2;
+    left: @s-series + @s-gap;
+    width: @size;
+    height: @size;
+    box-shadow: 0 0 0 3px @c-yellow-font,
+                0 2px 5px rgba(0,0,0,.7);
+    border-radius: 50%;
+  }
+  &:after {
+    @size: 80px;
+    @height: 24px;
+    content: '敬请期待';
+    position: absolute;
+    z-index: 2;
+    bottom: -@height;
+    margin-top: -@size/2;
+    margin-left: -(@size - @s-line)/2;
+    left: @s-series + @s-gap;
+    width: @size;
+    height: @height;
+    line-height: @height;
+    font-size: 14px;
+    text-align: center;
+    color: @c-yellow-font;
+    box-shadow: 0 0 0 2px @c-yellow-font;
+    border-radius: @height/2;
+  }
+  section {
+    position: relative;
+    padding: 10px 0;
+    &:before {
+      content: '';
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: @s-series + @s-gap;
+      height: 100%;
+      width: @s-line;
+      background-color: @c-basic;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      z-index: 2;
+      top: 50%;
+      margin-top: -@s-line/2;
+      left: @s-series + @s-gap;
+      width: @s-line;
+      height: @s-line;
+      box-shadow: 0 0 0 3px @c-yellow-font,
+                  0 2px 5px rgba(0,0,0,.7);
+      border-radius: 50%;
+    }
+    .series {
+      @height: 30px;
+      position: absolute;
+      z-index: 1;
+      left: 0;
+      top: 50%;
+      margin-top: -@height/2;
+      width: @s-series;
+      height: @height;
+      font-size: 14px;
+      line-height: @height;
+      text-align: center;
+      color: @c-yellow-font;
+      background-color: @c-basic;
+      box-shadow: 0 1px 2px rgba(255,255,255,.2) inset,
+                  0 1px 3px rgba(0,0,0,.5),
+                  0 0 0 4px rgba(0,0,0,.15);
+      border-radius: @height;
+      &:before {
+        content: '第 ';
+      }
+      &:after {
+        content: ' 集';
+      }
+    }
+    .content {
+      position: relative;
+      margin: 15px 0 15px @s-series + @s-line + @s-gap * 2;
+      padding: 14px 15px;
+      color: @c-yellow-font;
+      background-color: @c-basic;
+      box-shadow: 0 2px 6px rgba(0,0,0,.3);
+      &:before {
+        @size: 8px;
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: -@size * 2;
+        display: block;
+        margin-top: -@size;
+        width: 0;
+        height: 0;
+        border: @size solid transparent;
+        border-right-color: @c-basic;
+      }
+      .roles-group {
+        float: right;
+        margin: -9px -9px -9px 5px;
+        height: @s-role;
+        .role {
+          position: relative;
+          display: inline-block;
+          width: @s-role;
+          height: @s-role;
+          background: url('../assets/images/roles.jpg') no-repeat;
+          background-size: @s-role * 6 @s-role;
+          border-radius: 50%;
+          border: 2px solid darken(@c-basic, 5%);
+          &:before {
+            @size: 80px;
+            @height: 24px;
+            position: absolute;
+            top: -@height - 7px;
+            left: 50%;
+            margin-left: -@size/2;
+            width: @size;
+            font-size: 14px;
+            line-height: @height;
+            text-align: center;
+            color: #fff;
+            background-color: rgba(0,0,0,.5);
+            visibility: hidden;
+            transform: translateY(10px);
+            transition: all .3s;
+            opacity: 0;
+          }
+          &:hover:before {
+            visibility: visible;
+            transform: translateY(0);
+            opacity: 1;
+          }
+          &.Black {
+            background-position: -@s-role * 5 0;
+            &:before {
+              content: '黑暗组织';
+            }
+          }
+          &.Kid {
+            background-position: -@s-role * 4 0;
+            &:before {
+              content: '怪盗基德';
+            }
+          }
+          &.Heiji {
+            background-position: -@s-role * 2 0;
+            &:before {
+              content: '服部平次';
+            }
+          }
+          &.Kudo {
+            background-position: -@s-role * 3 0;
+            &:before {
+              content: '工藤新一';
+            }
+          }
+          &.FBI {
+            background-position: -@s-role 0;
+            &:before {
+              content: 'FBI';
+            }
+          }
+          &.CIA {
+            background-position: 0 0;
+            &:before {
+              content: 'CIA';
+            }
+          }
+        }
+      }
+    }
   }
 }
