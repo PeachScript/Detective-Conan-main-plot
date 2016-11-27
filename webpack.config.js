@@ -1,11 +1,13 @@
 var HtmlWebpackPlugin = require('html-webpack-plugin');
+var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var webpack = require('webpack');
 
 module.exports = {
   entry: './src/index.js',
   output: {
-    path: './dist',
+    path: './',
     publicPath: '/',
-    filename: 'dist/main.js'
+    filename: '[name].js'
   },
   module: {
     preLoaders: [
@@ -33,19 +35,11 @@ module.exports = {
         loader: 'html'
       },
       {
-        test: /\.css$/,
-        loaders: 'style!css'
-      },
-      {
-        test: /\.less$/,
-        loader: 'style!css!less'
-      },
-      {
         test: /\.(png|jpe?g|gif|svg)(\?.*)?$/,
         loader: 'url',
         query: {
           limit: 10000,
-          name: 'static/img/[name]_[hash:7].[ext]'
+          name: 'dist/static/img/[name]_[hash:7].[ext]'
         }
       },
       {
@@ -53,7 +47,7 @@ module.exports = {
         loader: 'url',
         query: {
           limit: 10000,
-          name: 'static/fonts/[name]_[hash:7].[ext]'
+          name: 'dist/static/fonts/[name]_[hash:7].[ext]'
         }
       }
     ]
@@ -61,6 +55,17 @@ module.exports = {
 };
 
 if (process.env.NODE_ENV !== 'production') {
+  module.exports.module.loaders = module.exports.module.loaders.concat([
+    {
+      test: /\.css$/,
+      loaders: 'style!css'
+    },
+    {
+      test: /\.less$/,
+      loader: 'style!css!less'
+    }
+  ]);
+
   module.exports.plugins = [
     new HtmlWebpackPlugin({
       filename: 'index.html',
@@ -73,4 +78,36 @@ if (process.env.NODE_ENV !== 'production') {
   };
 
   module.exports.devtool = '#source-map';
+} else {
+  module.exports.output.publicPath = '/Detective-Conan-main-plot/';
+  module.exports.output.filename = 'dist/static/js/[name]_[contenthash].js';
+
+  module.exports.module.loaders = module.exports.module.loaders.concat([
+    {
+      test: /\.css$/,
+      loaders: ExtractTextPlugin.extract('css')
+    },
+    {
+      test: /\.less$/,
+      loader: ExtractTextPlugin.extract('css!less')
+    }
+  ]);
+
+  module.exports.plugins = [
+    new HtmlWebpackPlugin({
+      filename: 'index.html',
+      template: './src/templates/index.html',
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true
+      }
+    }),
+    new webpack.optimize.UglifyJsPlugin({
+      compress: {
+        warnings: false
+      }
+    }),
+    new webpack.optimize.OccurenceOrderPlugin(),
+    new ExtractTextPlugin('dist/static/css/[name]_[contenthash].css')
+  ];
 }
