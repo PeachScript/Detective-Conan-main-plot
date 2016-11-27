@@ -80,7 +80,7 @@ if (process.env.NODE_ENV !== 'production') {
   module.exports.devtool = '#source-map';
 } else {
   module.exports.output.publicPath = '/Detective-Conan-main-plot/';
-  module.exports.output.filename = 'dist/static/js/[name]_[contenthash].js';
+  module.exports.output.filename = 'dist/static/js/[name]_[chunkhash:7].js';
 
   module.exports.module.loaders = module.exports.module.loaders.concat([
     {
@@ -108,6 +108,6 @@ if (process.env.NODE_ENV !== 'production') {
       }
     }),
     new webpack.optimize.OccurenceOrderPlugin(),
-    new ExtractTextPlugin('dist/static/css/[name]_[contenthash].css')
+    new ExtractTextPlugin('dist/static/css/[name]_[contenthash:7].css')
   ];
 }
