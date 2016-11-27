@@ -2321,35 +2321,35 @@
     "series": {
       "iqiyi": "332"
     },
-    "plots": []
+    "plots": ["Black"]
   },
   {
     "title": "残留下来的无声证言 下集",
     "series": {
       "iqiyi": "333"
     },
-    "plots": []
+    "plots": ["Black"]
   },
   {
     "title": "接触黑色组织 交涉篇",
     "series": {
       "iqiyi": "334"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "接触黑色组织 追迹篇",
     "series": {
       "iqiyi": "335"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "接触黑色组织 决死涉篇",
     "series": {
       "iqiyi": "336"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "沾染夕阳的女儿节娃娃 上集",
@@ -2517,14 +2517,14 @@
     "series": {
       "iqiyi": "360"
     },
-    "plots": []
+    "plots": ["FBI"]
   },
   {
     "title": "东都现像所的秘密 下集",
     "series": {
       "iqiyi": "361"
     },
-    "plots": []
+    "plots": ["FBI"]
   },
   {
     "title": "坠落事件的内幕",
@@ -2538,28 +2538,28 @@
     "series": {
       "iqiyi": "363"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "四台保时捷 下集",
     "series": {
       "iqiyi": "364"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "隐藏在厕所中的秘密 上集",
     "series": {
       "iqiyi": "365"
     },
-    "plots": []
+    "plots": ["Black"]
   },
   {
     "title": "隐藏在厕所中的秘密 下集",
     "series": {
       "iqiyi": "366"
     },
-    "plots": []
+    "plots": ["Black"]
   },
   {
     "title": "豪斯登堡的新娘 上集",
@@ -2580,63 +2580,63 @@
     "series": {
       "iqiyi": "369"
     },
-    "plots": []
+    "plots": ["FBI"]
   },
   {
     "title": "便利商店的陷阱 下集",
     "series": {
       "iqiyi": "370"
     },
-    "plots": []
+    "plots": ["FBI"]
   },
   {
     "title": "与黑色组织面对面 满月之夜的两起神秘事件 一",
     "series": {
       "iqiyi": "371"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "与黑色组织面对面 满月之夜的两起神秘事件 一",
     "series": {
       "iqiyi": "372"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "与黑色组织面对面 满月之夜的两起神秘事件 三",
     "series": {
       "iqiyi": "373"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "与黑色组织面对面 满月之夜的两起神秘事件 四",
     "series": {
       "iqiyi": "374"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "与黑色组织面对面 满月之夜的两起神秘事件 五",
     "series": {
       "iqiyi": "375"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "找寻臀部上的记号 上集",
     "series": {
       "iqiyi": "376"
     },
-    "plots": []
+    "plots": ["FBI"]
   },
   {
     "title": "找寻臀部上的记号 下集",
     "series": {
       "iqiyi": "377"
     },
-    "plots": []
+    "plots": ["FBI"]
   },
   {
     "title": "爱、幽灵与地球遗产 上集",
@@ -2699,14 +2699,14 @@
     "series": {
       "iqiyi": "386"
     },
-    "plots": []
+    "plots": ["Kid"]
   },
   {
     "title": "怪盗基德令人惊异的空中漫步 下集",
     "series": {
       "iqiyi": "387"
     },
-    "plots": []
+    "plots": ["Kid"]
   },
   {
     "title": "恋人是春天的幻影",
@@ -2818,7 +2818,7 @@
     "series": {
       "iqiyi": "403"
     },
-    "plots": []
+    "plots": ["Black"]
   },
   {
     "title": "毒蜘蛛陷阱",
@@ -2839,7 +2839,7 @@
     "series": {
       "iqiyi": "406"
     },
-    "plots": []
+    "plots": ["Black"]
   },
   {
     "title": "死亡约定15点",
@@ -2944,7 +2944,7 @@
     "series": {
       "iqiyi": "421"
     },
-    "plots": []
+    "plots": ["Black"]
   },
   {
     "title": "沉醉于萨摩的小五郎 上集",
@@ -2993,7 +2993,7 @@
     "series": {
       "iqiyi": "428"
     },
-    "plots": []
+    "plots": ["Black"]
   },
   {
     "title": "诡异宅院大冒险 机关篇",
@@ -3077,21 +3077,21 @@
     "series": {
       "iqiyi": "440"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "柯南平次之推理魔术 宅第篇",
     "series": {
       "iqiyi": "441"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "柯南平次之推理魔术 解决篇",
     "series": {
       "iqiyi": "442"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "表演和绑架同步进行 上集",
@@ -3210,35 +3210,35 @@
     "series": {
       "iqiyi": "459"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "黑色冲击！组织之手逼近的瞬间 （五之二）",
     "series": {
       "iqiyi": "460"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "黑色冲击！组织之手逼近的瞬间 （五之三）",
     "series": {
       "iqiyi": "461"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "黑色冲击！组织之手逼近的瞬间 （五之四）",
     "series": {
       "iqiyi": "462"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "黑色冲击！组织之手逼近的瞬间 （五之五）",
     "series": {
       "iqiyi": "463"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "给小兰的情书",
@@ -3266,7 +3266,7 @@
     "series": {
       "iqiyi": "467"
     },
-    "plots": []
+    "plots": ["CIA"]
   },
   {
     "title": "无法回头的两人 下集",
@@ -3507,32 +3507,32 @@
     "plots": []
   },
   {
-    "title": "黑暗组织之影小小目击者",
+    "title": "黑暗组织之影 小小目击者",
     "series": {
       "iqiyi": "502"
     },
-    "plots": []
+    "plots": ["Black", "CIA"]
   },
   {
     "title": "黑暗组织之影 奇妙的照明",
     "series": {
       "iqiyi": "503"
     },
-    "plots": []
+    "plots": ["Black", "CIA"]
   },
   {
     "title": "黑暗组织之影 神秘高额报酬",
     "series": {
       "iqiyi": "504"
     },
-    "plots": []
+    "plots": ["Black", "CIA"]
   },
   {
     "title": "黑暗组织之影 珍珠流星",
     "series": {
       "iqiyi": "505"
     },
-    "plots": []
+    "plots": ["Black", "CIA"]
   },
   {
     "title": "打不过的雪人 上集",
@@ -3560,14 +3560,14 @@
     "series": {
       "iqiyi": "509"
     },
-    "plots": []
+    "plots": ["Kid"]
   },
   {
     "title": "怪盗基德与四幅名画 下集",
     "series": {
       "iqiyi": "510"
     },
-    "plots": []
+    "plots": ["Kid"]
   },
   {
     "title": "失控的租赁汽车",
@@ -3581,14 +3581,14 @@
     "series": {
       "iqiyi": "512"
     },
-    "plots": []
+    "plots": ["kudo"]
   },
   {
     "title": "工藤新一少年冒险 下集",
     "series": {
       "iqiyi": "513"
     },
-    "plots": []
+    "plots": ["kudo"]
   },
   {
     "title": "妃英理律师之恋",
@@ -3630,28 +3630,28 @@
     "series": {
       "iqiyi": "519"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "与服部平次共度的三天",
     "series": {
       "iqiyi": "520"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "与服部平次共度的三天",
     "series": {
       "iqiyi": "521"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "与服部平次共度的三天",
     "series": {
       "iqiyi": "522"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "黄色的不在场证明",
@@ -3686,14 +3686,14 @@
     "series": {
       "iqiyi": "527"
     },
-    "plots": []
+    "plots": ["CIA"]
   },
   {
     "title": "黑色照片的下落 下集",
     "series": {
       "iqiyi": "528"
     },
-    "plots": []
+    "plots": ["CIA"]
   },
   {
     "title": "从右至左的招财猫",
@@ -3749,112 +3749,112 @@
     "series": {
       "iqiyi": "536"
     },
-    "plots": []
+    "plots": ["Kudo", "Heiji"]
   },
   {
     "title": "服部平次vs工藤新一 滑雪场的伦理对决 下集",
     "series": {
       "iqiyi": "537"
     },
-    "plots": []
+    "plots": ["Kudo", "Heiji"]
   },
   {
     "title": "红与黑的撞击 开端",
     "series": {
       "iqiyi": "538"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "红与黑的碰撞 血缘",
     "series": {
       "iqiyi": "539"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "红与黑的碰撞 惨叫",
     "series": {
       "iqiyi": "540"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "红与黑的撞击 冥土",
     "series": {
       "iqiyi": "541"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "红与黑的撞击 昏睡",
     "series": {
       "iqiyi": "542"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "红与黑的撞击 侵入",
     "series": {
       "iqiyi": "543"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "红与黑的撞击 觉醒",
     "series": {
       "iqiyi": "544"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "红与黑的撞击 搅乱",
     "series": {
       "iqiyi": "545"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "红与黑的碰撞击 伪装",
     "series": {
       "iqiyi": "546"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "红与黑的撞击 遗言",
     "series": {
       "iqiyi": "547"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "红与黑的撞击 嫌疑",
     "series": {
       "iqiyi": "548"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "红与黑的撞击 清白",
     "series": {
       "iqiyi": "549"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "红与黑的撞击 决死",
     "series": {
       "iqiyi": "550"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "红与黑的撞击 殉职",
     "series": {
       "iqiyi": "551"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "律师妃英理的证词 上集",
@@ -3882,14 +3882,14 @@
     "series": {
       "iqiyi": "555"
     },
-    "plots": []
+    "plots": ["CIA"]
   },
   {
     "title": "紅白黃色和侦探团",
     "series": {
       "iqiyi": "556"
     },
-    "plots": []
+    "plots": ["CIA", "FBI"]
   },
   {
     "title": "柯南VS双重暗号之謎",
@@ -3931,14 +3931,14 @@
     "series": {
       "iqiyi": "562"
     },
-    "plots": []
+    "plots": ["kid"]
   },
   {
     "title": "怪盜基德的瞬间移动魔术",
     "series": {
       "iqiyi": "563"
     },
-    "plots": []
+    "plots": ["kid"]
   },
   {
     "title": "风林火山 迷宫的铠甲武士 上集",
@@ -3987,28 +3987,28 @@
     "series": {
       "iqiyi": "570"
     },
-    "plots": []
+    "plots": ["kudo"]
   },
   {
     "title": "杀人犯 工藤新一 下集",
     "series": {
       "iqiyi": "571"
     },
-    "plots": []
+    "plots": ["kudo"]
   },
   {
     "title": "新一的真实身份和小兰的眼泪 上集",
     "series": {
       "iqiyi": "572"
     },
-    "plots": []
+    "plots": ["Kudo"]
   },
   {
     "title": "新一的真实身份和小兰的眼泪 下集",
     "series": {
       "iqiyi": "573"
     },
-    "plots": []
+    "plots": ["Kudo"]
   },
   {
     "title": "真正想知道的事",
@@ -4113,14 +4113,14 @@
     "series": {
       "iqiyi": "588"
     },
-    "plots": []
+    "plots": ["kid"]
   },
   {
     "title": "怪盗基德VS最强金库 下集",
     "series": {
       "iqiyi": "589"
     },
-    "plots": []
+    "plots": ["kid"]
   },
   {
     "title": "给愚者的遗产",
@@ -4295,14 +4295,14 @@
     "series": {
       "iqiyi": "614"
     },
-    "plots": []
+    "plots": ["FBI"]
   },
   {
     "title": "侦探团VS抢匪团 沉默",
     "series": {
       "iqiyi": "615"
     },
-    "plots": []
+    "plots": ["FBI"]
   },
   {
     "title": "看不见的目击者",
@@ -4400,28 +4400,28 @@
     "series": {
       "iqiyi": "629"
     },
-    "plots": []
+    "plots": ["FBI"]
   },
   {
     "title": "黑色13的暗示",
     "series": {
       "iqiyi": "630"
     },
-    "plots": []
+    "plots": ["FBI"]
   },
   {
     "title": "步步逼近的黑色期限",
     "series": {
       "iqiyi": "631"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "摇曳的红色目标",
     "series": {
       "iqiyi": "632"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "僵尸死亡之夜",
@@ -4463,7 +4463,7 @@
     "series": {
       "iqiyi": "638"
     },
-    "plots": []
+    "plots": ["Kid"]
   },
   {
     "title": "屋顶农园的陷阱",
@@ -4666,42 +4666,42 @@
     "series": {
       "iqiyi": "667"
     },
-    "plots": []
+    "plots": ["Kudo"]
   },
   {
     "title": "福尔摩斯默示录 Love is O ",
     "series": {
       "iqiyi": "668"
     },
-    "plots": []
+    "plots": ["Kudo"]
   },
   {
     "title": "福尔摩斯默示录 撒旦",
     "series": {
       "iqiyi": "669"
     },
-    "plots": []
+    "plots": ["Kudo"]
   },
   {
     "title": "福尔摩斯默示录 Code break",
     "series": {
       "iqiyi": "670"
     },
-    "plots": []
+    "plots": ["Kudo"]
   },
   {
     "title": "福尔摩斯默示录 草地女王",
     "series": {
       "iqiyi": "671"
     },
-    "plots": []
+    "plots": ["Kudo"]
   },
   {
     "title": "福尔摩斯默示录 0 is start",
     "series": {
       "iqiyi": "672"
     },
-    "plots": []
+    "plots": ["Kudo"]
   },
   {
     "title": "紧急事件252 上集",
@@ -4743,14 +4743,14 @@
     "series": {
       "iqiyi": "678"
     },
-    "plots": []
+    "plots": ["Kid"]
   },
   {
     "title": "柯南与基德的龙马宝物攻防线 下集",
     "series": {
       "iqiyi": "679"
     },
-    "plots": []
+    "plots": ["Kid"]
   },
   {
     "title": "宣传片拍摄事件 上集",
@@ -4876,14 +4876,14 @@
     "series": {
       "iqiyi": "697"
     },
-    "plots": []
+    "plots": ["Kudo"]
   },
   {
     "title": "幽灵饭店的推理对决 下集",
     "series": {
       "iqiyi": "698"
     },
-    "plots": []
+    "plots": ["Kudo"]
   },
   {
     "title": "侦探事务所挟持事件 突发",
@@ -4911,42 +4911,42 @@
     "series": {
       "iqiyi": "702"
     },
-    "plots": []
+    "plots": ["Heiji", "FBI"]
   },
   {
     "title": "柯南VS平次东西侦探推理对决（下集）",
     "series": {
       "iqiyi": "703"
     },
-    "plots": []
+    "plots": ["Heiji", "FBI"]
   },
   {
     "title": "毒和恨的设计(EYE)",
     "series": {
       "iqiyi": "704"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "毒和恨的设计(S)",
     "series": {
       "iqiyi": "705"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "毒和恨的设计(Poison)",
     "series": {
       "iqiyi": "706"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "毒和恨的设计(Illusion)",
     "series": {
       "iqiyi": "707"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "博士的影音网站（上集）",
@@ -5016,7 +5016,7 @@
     "series": {
       "iqiyi": "717"
     },
-    "plots": []
+    "plots": ["Kid"]
   },
   {
     "title": "雨夜的恐吓犯",
@@ -5058,28 +5058,28 @@
     "series": {
       "iqiyi": "723"
     },
-    "plots": []
+    "plots": ["Black"]
   },
   {
     "title": "侦探们的夜想曲（诱拐）",
     "series": {
       "iqiyi": "724"
     },
-    "plots": []
+    "plots": ["Black"]
   },
   {
     "title": "侦探们的夜想曲（推理）",
     "series": {
       "iqiyi": "725"
     },
-    "plots": []
+    "plots": ["Black"]
   },
   {
     "title": "侦探们的夜想曲（波本）",
     "series": {
       "iqiyi": "726"
     },
-    "plots": []
+    "plots": ["Black"]
   },
   {
     "title": "一丁点都不原谅（前篇）",
@@ -5254,56 +5254,56 @@
     "series": {
       "iqiyi": "751"
     },
-    "plots": []
+    "plots": ["B"]
   },
   {
     "title": "迫近灰原秘密的黑影 下篇",
     "series": {
       "iqiyi": "752"
     },
-    "plots": []
+    "plots": ["B"]
   },
   {
     "title": "漆黑的神秘列车（发车）",
     "series": {
       "iqiyi": "753"
     },
-    "plots": []
+    "plots": ["Black", "Kid"]
   },
   {
     "title": "漆黑的神秘列车（隧道）",
     "series": {
       "iqiyi": "754"
     },
-    "plots": []
+    "plots": ["Black", "Kid"]
   },
   {
     "title": "漆黑的神秘列车（交叉）",
     "series": {
       "iqiyi": "755"
     },
-    "plots": []
+    "plots": ["Black", "Kid"]
   },
   {
     "title": "漆黑的神秘列车（终点）",
     "series": {
       "iqiyi": "756"
     },
-    "plots": []
+    "plots": ["Black", "Kid"]
   },
   {
     "title": "密室里的柯南",
     "series": {
       "iqiyi": "757"
     },
-    "plots": []
+    "plots": ["Black"]
   },
   {
     "title": "推理的波本",
     "series": {
       "iqiyi": "758"
     },
-    "plots": []
+    "plots": ["Black"]
   },
   {
     "title": "被陷害的名侦探",
@@ -5331,42 +5331,42 @@
     "series": {
       "iqiyi": "762"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "大家都看见了（后篇）",
     "series": {
       "iqiyi": "763"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "服部平次与吸血鬼馆（一）",
     "series": {
       "iqiyi": "764"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "服部平次与吸血鬼馆（二）",
     "series": {
       "iqiyi": "765"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "服部平次与吸血鬼馆（三）",
     "series": {
       "iqiyi": "766"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "服部平次与吸血鬼馆（四）",
     "series": {
       "iqiyi": "767"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "能面宅邸中跳舞的鬼（上集）",
@@ -5429,14 +5429,14 @@
     "series": {
       "iqiyi": "776"
     },
-    "plots": []
+    "plots": ["Kid"]
   },
   {
     "title": "怪盗基德与赤面人鱼（后篇）",
     "series": {
       "iqiyi": "777"
     },
-    "plots": []
+    "plots": ["Kid"]
   },
   {
     "title": "幸福邮件招来不幸",
@@ -5499,14 +5499,14 @@
     "series": {
       "iqiyi": "786"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "茱蒂的追忆与赏花的陷阱（后篇）",
     "series": {
       "iqiyi": "787"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "带暗号的请帖",
@@ -5541,14 +5541,14 @@
     "series": {
       "iqiyi": "792"
     },
-    "plots": []
+    "plots": ["Black"]
   },
   {
     "title": "小兰也倒在浴室里了（前篇）",
     "series": {
       "iqiyi": "793"
     },
-    "plots": []
+    "plots": ["Black"]
   },
   {
     "title": "小兰也倒在浴室里了（后篇）",
@@ -5590,14 +5590,14 @@
     "series": {
       "iqiyi": "799"
     },
-    "plots": []
+    "plots": ["Kid"]
   },
   {
     "title": "怪盗基德VS京极真（后篇）",
     "series": {
       "iqiyi": "800"
     },
-    "plots": []
+    "plots": ["Kid"]
   },
   {
     "title": "本厅刑事恋爱物语（告白）",
@@ -5709,14 +5709,14 @@
     "series": {
       "iqiyi": "816"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "柯南与平次 恋爱的暗号（后篇）",
     "series": {
       "iqiyi": "817"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "堤无津川放风筝事件（前篇）",
@@ -5758,28 +5758,28 @@
     "series": {
       "iqiyi": "823"
     },
-    "plots": []
+    "plots": ["Black"]
   },
   {
     "title": "气氛僵硬的茶会 后篇",
     "series": {
       "iqiyi": "824"
     },
-    "plots": []
+    "plots": ["Black"]
   },
   {
     "title": "工藤新一水族馆事件 前篇",
     "series": {
       "iqiyi": "825"
     },
-    "plots": []
+    "plots": ["Kudo"]
   },
   {
     "title": "工藤新一水族馆事件 后篇",
     "series": {
       "iqiyi": "826"
     },
-    "plots": []
+    "plots": ["Kudo"]
   },
   {
     "title": "消失的蒙克的呐喊",
@@ -5821,35 +5821,35 @@
     "series": {
       "iqiyi": "832"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "绯色的追寻",
     "series": {
       "iqiyi": "833"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "绯色的交错",
     "series": {
       "iqiyi": "834"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "绯色的回归",
     "series": {
       "iqiyi": "835"
     },
-    "plots": []
+    "plots": ["Black", "FBI"]
   },
   {
     "title": "绯色的真相",
     "series": {
       "iqiyi": "836"
     },
-    "plots": []
+    "plots": ["Black", "FBI", "CIA"]
   },
   {
     "title": "欢迎来到织女俱乐部",
@@ -6038,14 +6038,14 @@
     "series": {
       "iqiyi": "863"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "镰鼬旅馆 后篇",
     "series": {
       "iqiyi": "864"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "县警的黑暗 前篇",
@@ -6073,7 +6073,7 @@
     "series": {
       "iqiyi": "868"
     },
-    "plots": []
+    "plots": ["Black"]
   },
   {
     "title": "博客女演员的密室案件 前篇",
@@ -6192,21 +6192,21 @@
     "series": {
       "iqiyi": "885"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "被僵尸包围的别墅 中篇",
     "series": {
       "iqiyi": "886"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "被僵尸包围的别墅 后篇",
     "series": {
       "iqiyi": "887"
     },
-    "plots": []
+    "plots": ["Heiji"]
   },
   {
     "title": "名侦探有弱点",
