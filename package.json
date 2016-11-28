@@ -1,6 +1,6 @@
 {
   "name": "detective-conan-main-plot",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Screen the main plot for the Detective Conan that you want to see",
   "main": "index.js",
   "scripts": {
