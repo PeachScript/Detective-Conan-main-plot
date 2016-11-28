@@ -215,10 +215,12 @@ header {
                   0 0 0 4px rgba(0,0,0,.15);
       border-radius: @height;
       &:before {
-        content: '第 ';
+        content: '第';
+        padding-right: 5px;
       }
       &:after {
-        content: ' 集';
+        content: '集';
+        padding-left: 5px;
       }
     }
     .content {
