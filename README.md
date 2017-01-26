@@ -1,6 +1,8 @@
 # Detective-Conan-main-plot
 Screen main plot for the Detective Conan that you want to watch.
 
+[Click to start](https://peachscript.github.io/Detective-Conan-main-plot/).
+
 ## Development Setup
 
 ```bash
