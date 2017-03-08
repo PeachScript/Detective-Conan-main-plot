@@ -79,7 +79,6 @@ if (process.env.NODE_ENV !== 'production') {
 
   module.exports.devtool = '#source-map';
 } else {
-  module.exports.output.publicPath = '/Detective-Conan-main-plot/';
   module.exports.output.filename = 'dist/static/js/[name]_[chunkhash:7].js';
 
   module.exports.module.loaders = module.exports.module.loaders.concat([
